@@ -1,0 +1,537 @@
+.Media-container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    max-height: 502px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.box-overlay {
+    max-width: 500px;
+    min-width: 462px;
+}
+
+.ndfg {
+    margin: 0;
+    order: 0;
+}
+
+.ndfg {
+    padding-top: 6px;
+}
+
+.gslkf {
+    border-top: solid 1px #efefef;
+}
+
+.svgPlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.TafarayPopMediaContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(22, 24, 35, 0.06);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.tiktok-174tqkn-DivVideoControlContainer {
+    width: calc(100% - 160px);
+    height: 24px;
+    padding-inline: 16px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+    bottom: 28px;
+    cursor: initial;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 56.25vh;
+}
+
+.tiktok-bo5mth-DivSeekBarContainer {
+    width: 100%;
+    height: 24px;
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.tiktok-j48lkt-DivSeekBarProgress {
+    height: 4px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.tiktok-1ioucls-DivSeekBarCircle {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.tiktok-kqqewi-DivSeekBar {
+    height: 4px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transform-origin: left center;
+}
+
+.tiktok-o2z5xv-DivSeekBarTimeContainer {
+    flex: 0 0 88px;
+    max-width: 88px;
+    margin-inline-start: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    text-align: end;
+    white-space: nowrap;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+    font-family: Tahoma, PingFangSC, sans-serif;
+    text-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.tiktok-mzxtw3-DivVideoControlTop {
+    width: calc(100% - 160px);
+    height: 10px;
+    position: absolute;
+    bottom: 52px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: initial;
+    max-width: 56.25vh;
+}
+
+.tiktok-1ap2cv9-DivVideoControlBottom {
+    width: calc(100% - 160px);
+    height: 28px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: initial;
+    max-width: 56.25vh;
+}
+
+
+.tiktok-go7hiw-DivVoiceControlContainer {
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tiktok-1k03x17-ButtonVoiceControlNew {
+    border: none;
+    background: none rgba(255, 255, 255, 0.12);
+    outline: none;
+    padding: 0px;
+    display: flex;
+    transition: opacity 0.3s ease 0s;
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 100px;
+}
+
+.tiktok-t8cj5n-DivVolumeControlContainer {
+    width: 28px;
+    height: 96px;
+    margin: 8px 6px;
+    display: block;
+    opacity: 0;
+    position: relative;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 32px;
+}
+
+.tiktok-m4h4si-DivVolumeControlProgress {
+    width: 4px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+.tiktok-1wejges-DivVolumeControlCircle {
+    width: 16px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    position: absolute;
+    left: 6px;
+    bottom: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.tiktok-zo7bs8-DivVolumeControlBar {
+    width: 4px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 12px;
+    bottom: 8px;
+    cursor: pointer;
+    transform: scaleY(0);
+    transform-origin: center bottom;
+}
+
+.StyledSignelIconContainer {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.12);
+    background: var(--always-dark-overlay);
+    border-radius: 999px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    top: 20px;
+    transition: opacity 0.3s ease 0s;
+    right: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.StyledCloseIconContainer {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    top: 20px;
+    transition: opacity 0.3s ease 0s;
+    left: 20px;
+    color: #fff;
+}
+
+.DivBlurBackground {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    filter: blur(2px);
+    left: 50%;
+    top: 50%;
+    transform: scale(11);
+    opacity: 0.3;
+    background: center center / cover no-repeat;
+}
+
+/*videos profile list*/
+.DivVideoFeedV2 {
+    display: grid;
+    gap: 8px 8px;
+    grid-template-columns: repeat(auto-fill, minmax(184px, 1fr));
+}
+
+.DivContainer-StyledDivContainerV2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.DivWrapper {
+    position: absolute;
+    inset: 0px;
+}
+
+.CanvasPlaceholder {
+    display: block;
+    visibility: hidden;
+    height: 100%;
+}
+
+.DivPlayerContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.DivContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(22, 24, 35, 0.06);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.ImgPoster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.BottomVideoStat {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.BottomStatContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.ButtonShowReply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #222;
+}
+
+.ButtonShowReply svg {
+    padding-right: 5px;
+}
+
+.uploadProgressbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #efefef;
+    height: 8px;
+}
+
+.barProgress {
+    height: 100%;
+    text-align: center;
+    background: var(--green-color);
+    ;
+}
+
+.MediaFunctionParamsDiv {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #FFF;
+    z-index: 100;
+}
+
+.circle-wrap {
+    width: 100px;
+    height: 100px;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 1px solid #cdcbd0;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 50px, 100px, 0px);
+    background-color: #227ded;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(0deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+    }
+}
+
+.circle-wrap .inside-circle {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: #fff;
+    line-height: 90px;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: 3px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+    border: solid 1px #ccc;
+}
+
+.albumContentRight {
+    max-width: 440px;
+    min-width: 402px;
+}
+
+.modal-album>.modal-content {
+    max-width: 1002px;
+    border-radius: 0;
+}
+
+.DivRencardFeed {
+    display: grid;
+    gap: 8px 8px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.MeetDivContentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.DivroundListAvatar {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.roundListAvatarcontent{
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    align-content: stretch;
+    align-items: center;
+    flex-direction: row;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+}
+.ListavatarContent {
+    align-items: stretch;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+._aa8h {
+    background-color: #efefef;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: block;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+._aa8j {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    height: 100%;
+    -webkit-touch-callout: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    width: 100%;
+}
+.MediaRightPostContainer{
+    margin-left: 18px;
+    position: relative;
+    flex-shrink: 1;
+    z-index: 0;
+    flex-grow: 1;
+    margin-bottom: 8px;
+}
+.postProfileMediaRightGrid{
+    flex-grow: 1;
+    position: relative;
+    overflow-x: hidden;
+    flex-basis: 0px;
+    overflow-y: hidden;
+    padding: 1px;
+    min-width: 90px;
+    box-sizing: border-box;
+}

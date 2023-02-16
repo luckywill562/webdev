@@ -1,0 +1,198 @@
+.Left-pannel{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.communication-panel {
+    padding-bottom: 30px;
+}
+
+.communication-panel {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    padding-top: 80px;
+    width: 264px;
+    z-index: 2;
+    box-sizing: border-box;
+    font-size: .75em;
+    transition: padding-top .5s;
+}
+
+.communication-panel .panel-block, .communication-panel .wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.communication-panel .chat-list-wrapper, .communication-panel .follow-up-list-wrapper, .communication-panel .notification-list-wrapper {
+    min-height: 160px;
+}
+.chats .chat-list-wrapper {
+    height: 100%;
+}
+.chat-list-wrapper, .follow-up-list-wrapper, .notification-list-wrapper {
+    transition: height .5s,padding .5s;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+.communication-panel .panel-block {
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: table;
+    background: #fff;
+    overflow: hidden;
+}
+.communication-panel .row-wrapper {
+    display: table-row;
+}
+
+.communication-panel .row-wrapper .header {
+    border-bottom: 1px solid #eee;
+}
+
+.chat-list-wrapper .header, .follow-up-list-wrapper .header, .notification-list-wrapper .header {
+    position: relative;
+    height: 40px;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+    padding-top: 9px;
+    padding-left: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.chat-list-wrapper .header .title, .follow-up-list-wrapper .header .title, .notification-list-wrapper .header .title {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.17em;
+    font-weight: 700;
+}
+
+.communication-panel .row-wrapper.content {
+    height: 100%;
+}
+
+.communication-panel .row-wrapper .cell {
+    display: table-cell;
+    height: 100%;
+}
+
+.spinner-container {
+    position: relative;
+}
+
+.communication-panel .nano {
+    height: 100%;
+}
+.spinner-container>* {
+    opacity: 1;
+    transition: opacity .25s ease .1s;
+}
+.nano {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.nano .nano-content {
+    overflow: scroll;
+    overflow-x: hidden;
+    left: 0;
+}
+
+.nano .nano-content, .nano .nano-pane {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.chat-list-wrapper .events, .follow-up-list-wrapper .events, .notification-list-wrapper .events {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat-list-wrapper .stale {
+    background-color: #f5f5f5;
+}
+
+.chat-list-wrapper .event-wrapper, .follow-up-list-wrapper .event-wrapper, .notification-list-wrapper .event-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    order: 1;
+    height: 60px;
+    padding: 0 13px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color .25s;
+}
+
+
+.chat-list-wrapper .event-wrapper .avatar-wrapper, .follow-up-list-wrapper .event-wrapper .avatar-wrapper, .notification-list-wrapper .event-wrapper .avatar-wrapper {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    flex: 0 0 40px;
+}
+
+.chat-list-wrapper .event-wrapper .avatar, .follow-up-list-wrapper .event-wrapper .avatar, .notification-list-wrapper .event-wrapper .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.chat-list-wrapper .description, .follow-up-list-wrapper .description, .notification-list-wrapper .description {
+    height: 40px;
+    width: 100%;
+    margin-right: 13px;
+    margin-left: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+.chat-list-wrapper .description .wrapper, .follow-up-list-wrapper .description .wrapper, .notification-list-wrapper .description .wrapper {
+    position: relative;
+    line-height: normal;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.chat-list-wrapper .name-raw, .follow-up-list-wrapper .name-raw, .notification-list-wrapper .name-raw {
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-list-wrapper .description .name {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.chat-list-wrapper .stale .name, .chat-list-wrapper .stale .text {
+    font-weight: 600;
+}
+.chat-list-wrapper .name, .follow-up-list-wrapper .name, .notification-list-wrapper .name {
+    white-space: nowrap;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+}

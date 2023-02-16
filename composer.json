@@ -1,0 +1,19 @@
+{
+    "name": "app/zahara",
+    "description": "social app",
+    "autoload":{
+        "psr-4": {
+            "Src\\" : "src/"
+        }
+    },
+    "require": {
+        "ext-gd": "*",
+        "php": "^7.1.0",
+        "altorouter/altorouter": "1.2.0",
+        "firebase/php-jwt": "5.2",
+        "intervention/image": "^2.7"      
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t web server.php"
+    }
+}

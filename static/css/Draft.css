@@ -1,0 +1,54 @@
+
+.public-DraftEditorPlaceholder-root {
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  
+  .public-DraftEditorPlaceholder-inner {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: var(--secondary-text);
+    text-overflow: ellipsis;
+  
+    pointer-events: none;
+  }
+  
+  .jq4qci2q {
+    font-size: .9375rem;
+  }
+  
+  .DraftEditor-root {
+    display: flex;
+    width: 100%;
+  }
+  
+  .DraftEditor-editorContainer {
+    max-height: 124px;
+    color: var(--primary-text);
+    position: relative;
+    min-width: 0;
+    text-align: initial;
+    overflow-y: auto;
+    min-height: 20px;
+    flex-grow: 1;
+    outline: none;
+    overflow: hidden;
+    word-break: break-word;
+  }
+  
+  .up .DraftEditor-editorContainer {
+    font-size: 30px;
+  }
+  
+  .e8k2yoa,
+  .e13wqaj6,
+  .e8k2yoa:hover {
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+    color: rgb(0, 132, 255);
+  }

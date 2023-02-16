@@ -1,0 +1,343 @@
+.default-container {
+    max-width: 502px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card-border{
+    box-shadow: rgb(0 0 0 / 8%) 1px 0 6px, rgb(0 0 0 / 6%) 0 1px 6px;;
+    /*
+
+    box-shadow: none;
+    border: solid 1px rgb(219, 219, 219);
+    */
+}
+.card-top {
+    padding: 10px 12px 0;
+}
+
+
+.profil-picture {
+    height: 42px;
+    width: 42px;
+}
+
+
+.post-text > .emojione{
+    vertical-align: inherit;
+}
+
+.post-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif !important;
+    word-wrap: break-word;
+    text-align: left;
+    font-weight: 400;
+    color: #333;
+    font-size: 17px;
+}
+.nslk{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,"\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3",Hiragino Kaku Gothic Pro,"\30E1\30A4\30EA\30AA",Meiryo,"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF",Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-weight: 600;
+    font-size: 15px;
+}
+.ScreenName {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    letter-spacing: -.4px;
+    color: #697882;
+}
+.card-media {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+.media-container {
+    width: 100%;
+    height: auto;
+}
+
+.card-stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-stats button {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    cursor: pointer;
+    background: #FFF;
+    border: 0;
+}
+/*like dislike*/
+
+.post-action {
+    border: 0;
+    background: transparent;
+    height: auto;
+    width: auto;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2rem;
+    text-align: left;
+    background-repeat: no-repeat;
+}
+
+
+.post-action {
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.error {
+    position: fixed !important;
+    top: 70px;
+}
+
+.alert {
+    position: relative;
+    padding: 0.5rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.alert-secondary {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+/*commentaire*/
+.comment-content {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-box {
+    margin: 0;
+    position: relative;
+    word-wrap: break-word;
+    padding: 7px 0;
+}
+.comment-box:last-child{
+    border: 0;
+}
+.UserBGAvatar {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.Post-Author-Identity--Avatar::after {
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.GHT {
+    justify-content: flex-start;
+}
+
+.KHv {
+    display: inline-block;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+    align-items: flex-end;
+}
+
+.GTJ {
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 15px;
+    line-height: 25px;
+    border: solid 1px transparent;
+    background: rgb(228, 230, 236);
+}
+
+/*media*/
+
+.Pbggc {
+    background: rgba(0, 0, 0, .05);
+}
+
+.btb {
+    border-bottom: 1px solid var(--divider-on-white);
+}
+
+.bwt {
+    border-top: 1px solid var(--divider-on-white);
+}
+
+.Post-media {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    max-height: 500px;
+    margin-top: 8px
+}
+
+.post-media-grid {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+
+.Post-media-Double {
+    width: calc(100% / 2 - 1px);
+}
+
+.Post-media-Double:last-child {
+    right: 0;
+}
+
+.img-scale {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ViewBox-right-column {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 520px;
+    background: #fff;
+    top: 0;
+    right: 0;
+}
+
+.app-widget-follow {
+    border: none;
+    position: relative;
+    display: block;
+    max-height: calc(100vh - 150px);
+    height: 250px;
+    overflow: auto;
+}
+
+
+.Xs-User-Avatar {
+    height: 42px;
+    width: 42px;
+}
+
+.Post-Author-Identity--Avatar {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    background-size: cover;
+}
+.posts-grid{
+    flex-grow: 1;
+    position: relative;
+    overflow-x: hidden;
+    flex-basis: 0px;
+    overflow-y: hidden;
+    padding: 4px;
+    min-width: 192px;
+    box-sizing: border-box;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.text-group> .Text-form{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.text-group> .input-group-text{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+.Dapi{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.Eom{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 200px);
+    overflow: auto;
+    max-height: 250px;
+}
+.UserActions:first-child{
+    padding-top: 0;
+}
+.Tui{
+    text-transform: uppercase
+}
+
+
+.G7mk{
+
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}

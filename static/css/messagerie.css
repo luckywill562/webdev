@@ -1,0 +1,408 @@
+.messagerie-container{
+    padding-right: 0 !important;
+    box-sizing: content-box;
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 16px 0 10px;
+}
+.sLayout{
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.container-box{
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 190px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.messages-wrapper{
+    position: relative;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+}
+.messages-listing{
+    width: 372px;
+    height: 100%;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.DivRighConversationBox{
+    width: 322px;
+    height: 100%;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+.messages-list-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.messages-list-header {
+    width: 100%;
+    height: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 16px ;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.messages-list-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #262626;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.conversation-list-content {
+    overflow: auto;
+    height: 100%;
+    border-top: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+
+.message-scrollabled-list {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overscroll-behavior-y: contain;
+    -webkit-perspective: 1px;
+    -moz-perspective: 1px;
+    -ms-perspective: 1px;
+    perspective: 1px;
+    -webkit-perspective-origin: right top;
+    -moz-perspective-origin: right top;
+    -ms-perspective-origin: right top;
+    perspective-origin: right top;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    padding: 4px 6px;
+}
+.messages-text-container {
+    width: 100%;
+    height: 100%;
+}
+.conversation-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.conversation-main{
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+    padding: 24px 0 16px;
+    overflow-x: hidden;
+}
+.messagerie-container .active{
+    background-color: #efefef;
+}
+
+
+.hasnext{
+    border-bottom-right-radius: 0px !important;
+}
+.hasprev{
+    border-top-right-radius: 0px !important;
+}
+
+
+
+
+.IwRSH {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.Igw0E {
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.QOqBd {
+    background-color: rgb(239, 239, 239);
+}
+
+.rOtsg {
+    padding: 8px 10px;
+}
+.ovd{
+    flex-direction: row;
+    justify-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    align-items: center;
+    -webkit-box-align: center;
+    align-content: stretch;
+}
+
+
+.vwCYk {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+}
+
+
+
+.rBNOH {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+._7UhW9 ._7UhW9, .se6yk {
+    display: inline!important;
+    margin: 0!important;
+}
+.PIoXz {
+    font-size: 13px;
+    line-height: 16px;
+    margin: -2px 0 -3px;
+}
+.fDxYl {
+    display: block;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.KV-D4 {
+    color: #444;
+}
+.MMzan {
+    font-weight: 400;
+}
+.xLCgt {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: -3px 0 -4px;
+    line-height: 20px;
+}
+
+._0PwGv {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.R19PB {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.HcJZg {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.L-sTb {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+textarea {
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+._2dbep {
+    background-color: #fafafa;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+._2dbep::after {
+    border: 1px solid rgba(0,0,0,.0975);
+    border: 1px solid rgba(var(--jb7,0,0,0),.0975);
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.n4cjz {
+    margin-left: 12px;
+}
+
+.qyrsm {
+    font-weight: 600;
+}
+
+.vy6Bb {
+    font-size: 16px;
+    line-height: 24px;
+    margin: -6px 0 -6px;
+}
+.UtYtc{
+    height: 8px;
+    width: 8px;
+    right: -4px;
+    bottom: -4px;
+    margin: 0;
+}
+.evOYH {
+    height: 12px;
+    width: 12px;
+    right: -2px;
+    bottom: -2px;
+    margin: 0;
+}
+.d4kh{
+    height: 18px;
+    width: auto;
+    bottom: 20px;
+    right: 0;
+    padding: 0 5px;
+    font-weight: 500;
+    min-width: 8px;
+}
+
+.rSxHQ {
+    background: #78de45;
+    border-radius: 20px;
+    position: absolute;
+    border: solid;
+    border-width: 3.5px;
+    border-color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.ticontainer{
+    padding: 8px 16px;
+    max-width: 60%;
+    border-radius: 0.9rem;
+    background: #efefef;
+}
+.incognito-messagerie-container {
+    padding-right: 0 !important;
+    box-sizing: content-box;
+    width: 100%;
+    height: calc(100vh - 200px);
+    padding: 0;
+}
+
+.incognito_messege_content{
+    padding: 8px 16px;
+    max-width: 60%;
+    border-radius: 0.9rem;
+    margin-bottom: 2px;
+}
+.Dfk{
+    max-width: 760px;
+}
+.Obm{
+    word-break: break-all;
+}
+.DivMessengerPremiumMedia{
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+}
+.MediaSpecialMessangeDiv{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+}

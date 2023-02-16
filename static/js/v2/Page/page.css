@@ -1,0 +1,31 @@
+:root {
+    --secondary: 237,241,247;
+    --green: 0,224,150;
+    --textColor: 17,24,39;
+}
+
+.item-title h2 {
+    color: #278;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.item-text p{
+    margin-bottom: 10px;
+}
+.text-red{
+    color: #F00;
+}
+.Info{
+    margin-bottom: 100px;
+}
+.info-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.info-footer h2{
+    color: #F00;
+}

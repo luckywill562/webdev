@@ -1,0 +1,138 @@
+.Left-pannel{
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    padding-right: 12px;
+    perspective-origin: right top;
+    top: 70px;
+    bottom: 0;
+    width: 290px;
+    position: fixed;
+    z-index: 2;
+    background-color: #FAFAFA;
+    padding-right: 8px;
+}
+.communication-panel {
+    padding-bottom: 30px;
+}
+
+.communication-panel {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    padding-top: 80px;
+    width: 264px;
+    z-index: 2;
+    box-sizing: border-box;
+    font-size: .75em;
+    transition: padding-top .5s;
+}
+
+.communication-panel .panel-block, .communication-panel .wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.communication-panel .chat-list-wrapper, .communication-panel .follow-up-list-wrapper, .communication-panel .notification-list-wrapper {
+    min-height: 160px;
+}
+.chats .chat-list-wrapper {
+    height: 100%;
+}
+.chat-list-wrapper, .follow-up-list-wrapper, .notification-list-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 0px 0px 16px;
+    box-sizing: border-box;
+}
+
+.communication-panel .panel-block {
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: table;
+    background: #fff;
+    overflow: hidden;
+}
+.communication-panel .row-wrapper {
+    display: table-row;
+}
+
+.communication-panel .row-wrapper .header {
+    border-bottom: 1px solid #eee;
+}
+
+.chat-list-wrapper .header .title, .follow-up-list-wrapper .header .title, .notification-list-wrapper .header .title {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    font-family: "proxima-semibold",PingFangSC,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.communication-panel .row-wrapper.content {
+    height: 100%;
+}
+
+.communication-panel .row-wrapper .cell {
+    display: table-cell;
+    height: 100%;
+}
+
+.communication-panel .nano {
+    height: 100%;
+}
+.spinner-container>* {
+    opacity: 1;
+    transition: opacity .25s ease .1s;
+}
+.nano {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.chat-list-wrapper .description .wrapper, .follow-up-list-wrapper .description .wrapper, .notification-list-wrapper .description .wrapper {
+    position: relative;
+    line-height: normal;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-wrapper::after {
+    background-color: #2ea948;
+    position: absolute;
+    right: -4px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    border-radius: 50%;
+    bottom: -3px;
+    border: 2px solid #fff;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 1;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+}
+.Hgfrt {
+    background: #78de45;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    flex-shrink: 0;
+    font-size: 10px;
+    padding: 0 5px;
+    color: #fff;
+    min-height: 10px;
+  }

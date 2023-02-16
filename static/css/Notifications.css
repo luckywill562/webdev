@@ -1,0 +1,123 @@
+.dp{
+    width: 200px;
+}
+
+._6not {
+    width: 360px;
+}
+
+.invite-wrapper {
+    z-index: 7;
+}
+
+.popup-container, .popup-container-event, .popup-container-hover {
+    position: relative;
+}
+.invite-wrapper .invite>* {
+    white-space: normal;
+}
+
+@media (min-width: 951px){
+    :not(.chat-opened):not(.over-page-opened) .invite-wrapper .nonblocking.opened {
+        animation: tinOpened .8s ease-in-out;
+        bottom: 10px;
+    }
+}
+
+:not(.chat-opened):not(.over-page-opened) .invite-wrapper .nonblocking.opened {
+    display: block;
+}
+@media (min-width: 951px){
+    .over-page-opened:not(.chat-opened) .invite-wrapper .nonblocking, :not(.chat-opened):not(.over-page-opened) .invite-wrapper .nonblocking {
+        bottom: -191px;
+    }
+}
+:not(.chat-opened):not(.over-page-opened) .invite-wrapper .nonblocking {
+    display: none;
+    right: 20px;
+}
+.invite-wrapper .content {
+    pointer-events: all;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+}
+
+.invite-wrapper .alert-wrapper {
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 40%);
+}
+
+.invite-wrapper .invite {
+    width: 300px;
+    height: 66px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.invite-wrapper .info {
+    display: inline-block;
+    vertical-align: top;
+    width: 190px;
+}
+.invite-wrapper .info .message {
+    display: block;
+    margin-bottom: 5px;
+    min-height: 54px;
+    max-height: 62px;
+    max-width: 195px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222;
+    overflow: hidden;
+    padding-left: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.invite-wrapper .indicator-wrapper {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+}
+.invite-wrapper .indicator {
+    border-radius: 50%;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+}
+.start-loading{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 32px;
+}
+.alert-info .content h2 {
+    color: rgb(var(--alertTitle));
+    font-size: 1rem;
+    font-weight: 500;
+}
+.alert-info.info {
+    --alertInfoBackground: 219,234,254;
+    --alertInfoText: 29,78,216;
+    color: rgb(var(--alertInfoText));
+}
+
+.alert-info {
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 20px;
+}
+.alert-info .content p {
+    margin-bottom: 20px;
+}
+.alert-info .icon-info {
+    flex-shrink: 0;
+    padding: 0 10px 0 0;
+}

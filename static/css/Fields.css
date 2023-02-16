@@ -1,0 +1,78 @@
+/*input*/
+.Text-form {
+  display: block;
+  width: 100%;
+  height: calc(2.45rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .35rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  box-sizing: border-box;
+}
+
+.hgsP {
+  border-right: 1px solid #ced4da;
+  border-top-right-radius: 0.35rem;
+  border-bottom-right-radius: 0.35rem;
+}
+
+.Text-form::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.Text-form:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #88b9ed;
+  outline: 0;
+  box-shadow: 0 0 0 0.24rem rgba(0, 123, 255, 0.25);
+}
+
+.text-form-hasFocus {
+  box-shadow: 0 0 0 0.24rem rgba(0, 123, 255, 0.25);
+}
+
+.Text-form::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.Text-form::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.Text-form:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.Text-form::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.Text-form::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.Lg-textarea {
+  resize: none;
+  height: 100px;
+}
+
+.sp-form .Text-form {
+  border: 0;
+  background-color: #efefef;
+}
+
+.form-lg-height {
+  max-height: 80px;
+}
